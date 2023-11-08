@@ -5,7 +5,7 @@ console.log("EXERCISE 1:\n==========\n");
 
 for (let i = 1; i <= 100; i++)
 
-    if (i % 2 != 0) {
+    if (i % 2 !== 0) {
     console.log(i);
 }
 
@@ -13,7 +13,7 @@ for (let i = 1; i <= 100; i++)
 console.log("EXERCISE 2:\n==========\n");
 
 for (let num = 1; num <= 100; num ++)
-    if (num % 3===0 && i % 5 === 0){
+    if (num % 3 === 0 && num % 5 === 0){
         console.log("FIZZBUZZ")
     }
     else if (num % 3 === 0){
@@ -27,13 +27,13 @@ for (let num = 1; num <= 100; num ++)
 let whileNum = 1
 while (whileNum <= 100)
 
-{ if (num % 3 ===0 && i % 5 === 0){
+{ if (whileNum % 3 ===0 && i % 5 === 0){
     console.log("FIZZBUZZ")
 }
-else if (num % 3 === 0){
+else if (whileNum % 3 === 0){
     console.log("FIZZ")
 }
-else if (num % 5 === 0){
+else if (whileNum % 5 === 0){
     console.log("BUZZ")
 }
 }
